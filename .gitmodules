@@ -26,3 +26,15 @@
 	path = arcgis-js-api/dgrid1
 	url = https://github.com/Esri/dgrid.git
 	branch = 1.1.0-esri
+[submodule "arcgis-js-api/dstore"]
+	path = arcgis-js-api/dstore
+	url = https://github.com/SitePen/dstore.git
+[submodule "arcgis-js-api/xstyle"]
+	path = arcgis-js-api/xstyle
+	url = https://github.com/kriszyp/xstyle.git
+[submodule "arcgis-js-api/put-selector"]
+	path = arcgis-js-api/put-selector
+	url = https://github.com/kriszyp/put-selector.git
+[submodule "arcgis-js-api/moment"]
+	path = arcgis-js-api/moment
+	url = https://github.com/moment/moment.git
