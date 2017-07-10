@@ -1,0 +1,28 @@
+
+[submodule "arcgis-js-api/esri"]
+	path = arcgis-js-api/esri
+	url = https://github.com/Esri/arcgis-js-api.git
+[submodule "arcgis-js-api/dojo"]
+	path = arcgis-js-api/dojo
+	url = https://github.com/Esri/dojo.git
+	branch = 1.12.2-esri
+[submodule "arcgis-js-api/dijit"]
+	path = arcgis-js-api/dijit
+	url = https://github.com/Esri/dijit.git
+	branch = 1.12.2-esri
+[submodule "arcgis-js-api/dojox"]
+	path = arcgis-js-api/dojox
+	url = https://github.com/Esri/dojox.git
+	branch = 1.12.2-esri
+[submodule "arcgis-js-api/util"]
+	path = arcgis-js-api/util
+	url = https://github.com/Esri/dojo-util.git
+	branch = 1.12.2-esri
+[submodule "arcgis-js-api/dgrid"]
+	path = arcgis-js-api/dgrid
+	url = https://github.com/Esri/dgrid.git
+	branch = 0.3.17-esri
+[submodule "arcgis-js-api/dgrid1"]
+	path = arcgis-js-api/dgrid1
+	url = https://github.com/Esri/dgrid.git
+	branch = 1.1.0-esri
