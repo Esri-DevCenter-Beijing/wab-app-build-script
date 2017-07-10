@@ -14,6 +14,6 @@ How to run?
 * Clone this repository
 * Make sure you have `Node.js` and `JRE` installed.
 * Copy your app into the root folder of this repo, the folder structure is like this: `wab-app-build-script/config.json`
-  **  **Please note**: Please copy `package.js` and `package.json` into `widgets` folder and `themes` folder if they are not existed.
+  **Please note**: Please copy `package.js` and `package.json` into `widgets` folder and `themes` folder if they are not existed.
 * Open `cmd`, cd folder `buildScripts`, run `npm install`, then run `build.bat`.
 * Waiting for the build process to complete. The build output will be available at `buildOutput/app` folder.
