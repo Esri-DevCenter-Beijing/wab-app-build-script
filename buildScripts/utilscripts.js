@@ -180,15 +180,21 @@ function getThemePanelModules(basePath, options){
   if(typeof options === 'object'){
     appConfig = options;
     if(appConfig.widgetOnScreen.panel && appConfig.widgetOnScreen.panel.uri){
-      modules.push('./panels/' + getNameFromUri(appConfig.widgetOnScreen.panel.uri) + '/Panel');
+      if(!/^jimu/.test(appConfig.widgetOnScreen.panel.uri)){
+        modules.push('./panels/' + getNameFromUri(appConfig.widgetOnScreen.panel.uri) + '/Panel');
+      }
     }
     if(appConfig.widgetPool.panel && appConfig.widgetPool.panel.uri){
-      modules.push('./panels/' + getNameFromUri(appConfig.widgetPool.panel.uri) + '/Panel');
+      if(!/^jimu/.test(appConfig.widgetPool.panel.uri)){
+        modules.push('./panels/' + getNameFromUri(appConfig.widgetPool.panel.uri) + '/Panel');
+      }
     }
 
     visitElement(appConfig, function(e){
       if(e.widgets && e.panel && e.panel.uri){
-        modules.push('./panels/' + getNameFromUri(e.panel.uri) + '/Panel');
+        if(!/^jimu/.test(e.panel.uri)){
+          modules.push('./panels/' + getNameFromUri(e.panel.uri) + '/Panel');
+        }
       }
     });
   }else{
