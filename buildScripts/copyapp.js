@@ -57,5 +57,7 @@ function copyPartAPI(){
   utilscripts.docopy(path.join(appPackagePath, 'put-selector'), path.join(appOutputPath, 'arcgis-js-api/put-selector'));
   utilscripts.docopy(path.join(appPackagePath, 'xstyle'), path.join(appOutputPath, 'arcgis-js-api/xstyle'));
   utilscripts.docopy(path.join(appPackagePath, 'moment'), path.join(appOutputPath, 'arcgis-js-api/moment'));
+
+  utilscripts.docopy(path.join(basePath, 'arcgis-js-api/moment/locale'), path.join(appOutputPath, 'arcgis-js-api/moment/locale'));
 }
 
