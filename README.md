@@ -1,4 +1,4 @@
-This script is used to build app that by WAB.
+This script is used to build app created by WAB.
 ===================================================
 
 
