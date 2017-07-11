@@ -12,6 +12,7 @@ Generally speaking, you may have 2 reasons:
 How to run?
 -----------------------------------
 * Clone this repository
+* cd the repository folder and run `git submodule update --recursive`
 * Make sure you have `Node.js` and `JRE` installed.  
 * Copy your app into the root folder of this repo, the folder structure is like this: `wab-app-build-script/config.json`
    * **Please note**: Please copy `package.js` and `package.json` into `widgets` folder and `themes` folder if they are not existed.
