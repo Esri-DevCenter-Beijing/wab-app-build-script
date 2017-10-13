@@ -1,4 +1,4 @@
-This script is used to build app created by WAB-Developer Edition 2.6
+This script is used to build 2D app created by WAB-Developer Edition 2.5, 2.6
 ===================================================
 
 
