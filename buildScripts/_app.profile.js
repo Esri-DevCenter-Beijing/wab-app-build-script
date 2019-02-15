@@ -173,6 +173,10 @@ profile = {
     'extend-dojo': 1,
     'extend-esri': 0,
     'esri-svg': 1
+  },
+
+  optimizeOptions: {
+    languageIn: "ECMASCRIPT5"
   }
 
 };

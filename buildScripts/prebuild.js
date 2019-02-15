@@ -69,7 +69,7 @@ function writeAppConfig(){
 }
 
 function writeProfile(){
-  var profileStr = 'profile = ' + JSON.stringify(profile, null, 2) + ';';
+  var profileStr = 'profile = ' + utilscripts.convertToText(profile) + ';';
   fs.writeFileSync(wProfileFile, profileStr, 'utf-8');
 }
 
